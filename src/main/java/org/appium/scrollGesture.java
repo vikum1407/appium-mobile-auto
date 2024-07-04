@@ -1,11 +1,13 @@
 package org.appium;
-
+import org.openqa.selenium.By;
 import com.google.common.collect.ImmutableMap;
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.JavascriptExecutor;
+import org.testng.annotations.Test;
 
 public class scrollGesture extends Base{
 
+    @Test
     public void mobileScrollDesture(){
         driver.findElement(AppiumBy.accessibilityId("View")).click();
 
