@@ -37,3 +37,10 @@
 
     - References: https://github.com/appium/appium-uiautomator2-driver/blob/master/docs/android-mobile-gestures.md
     
+## Install apk android app to the emulator
+
+    Go to the apk location and open cmd. then run following command
+    
+    '''
+    adb install <apk_location.apk>  
+    '''
